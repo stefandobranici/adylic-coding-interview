@@ -9,4 +9,4 @@ export const DISPLAY_COMPONENT_TRACKER = 'display_component_tracker';
 export const DISPALY_COMPONENT_FORECAST = 'display_component_forecast';
 
 /* Api constants */
-export const TRACKER_BASE_URL = 'http://api.openweathermap.org/data/2.5';
+export const TRACKER_BASE_URL = 'https://api.openweathermap.org/data/2.5';
