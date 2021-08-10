@@ -1,9 +1,17 @@
+.backgroundGradient {
+  position: fixed;
+  z-index: -1;
+  margin:0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient( 135deg, #FFA6B7 10%, #1E2AD2 100%);
+}
+
 .App {
+  margin: auto;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: linear-gradient( 135deg, #FFA6B7 10%, #1E2AD2 100%);
-  width: 100vw;
-  height: 100vh;
 }

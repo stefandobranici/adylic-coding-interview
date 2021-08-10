@@ -33,7 +33,7 @@ export default function WeatherForecast() {
                 const currentDay = new Date(currentForecastData[0].dt).toDateString();
 
                 return (
-                    <Col md="6" lg="4" style={{ paddingTop: '30px' }} key={`statistics-panel-${day}`} id={`statistics-panel-${day}`}>
+                    <Col sm="12" md="6" lg="4" style={{ paddingTop: '30px' }} key={`statistics-panel-${day}`} id={`statistics-panel-${day}`}>
                         <StatisticsPanel activeDay={currentDay} city={targetCity} trackers={{ dayTempTracker, nightTempTracker, humidityTracker }} />
                     </Col>
                 );

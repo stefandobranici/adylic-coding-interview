@@ -37,7 +37,7 @@ export default function WeatherTracker() {
 
     return (
         <Row className="justify-content-md-center">
-            <Col md="6" lg="4" style={{ paddingTop: '30px' }}>
+            <Col sm="12" md="6" lg="4" style={{ paddingTop: '30px' }}>
                 <StatisticsPanel activeDay={activeDay} city={trackedCity} trackers={{ dayTempTracker, nightTempTracker, humidityTracker }} />
             </Col>
         </Row>

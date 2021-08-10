@@ -17,6 +17,7 @@ function App() {
 
   return (
     <React.Fragment>
+      <div className="backgroundGradient"></div>
       <div className="App">
         <Container>
           <Row className="justify-content-md-center">
